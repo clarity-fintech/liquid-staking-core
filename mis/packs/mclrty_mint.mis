@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Liquid Staking Core · MClrtyMint
+
+module LiquidStakingCoreMClrtyMint {
+
+  embed gates 3..=6 {
+    context: "MClrtyMint pack on MIS domain liquid_staking — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_mclrty_mint_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant mclrty_mint_001: mclrty_mint_001_bound == true;
+  invariant mclrty_mint_002: mclrty_mint_002_bound == true;
+  invariant mclrty_mint_003: mclrty_mint_003_bound == true;
+  invariant mclrty_mint_004: mclrty_mint_004_bound == true;
+  invariant mclrty_mint_005: mclrty_mint_005_bound == true;
+  invariant mclrty_mint_006: mclrty_mint_006_bound == true;
+  invariant mclrty_mint_007: mclrty_mint_007_bound == true;
+  invariant mclrty_mint_008: mclrty_mint_008_bound == true;
+  invariant mclrty_mint_009: mclrty_mint_009_bound == true;
+  invariant mclrty_mint_010: mclrty_mint_010_bound == true;
+  invariant mclrty_mint_011: mclrty_mint_011_bound == true;
+  invariant mclrty_mint_012: mclrty_mint_012_bound == true;
+  invariant mclrty_mint_013: mclrty_mint_013_bound == true;
+  invariant mclrty_mint_014: mclrty_mint_014_bound == true;
+  invariant mclrty_mint_015: mclrty_mint_015_bound == true;
+  invariant mclrty_mint_016: mclrty_mint_016_bound == true;
+  invariant mclrty_mint_017: mclrty_mint_017_bound == true;
+  invariant mclrty_mint_018: mclrty_mint_018_bound == true;
+  invariant mclrty_mint_019: mclrty_mint_019_bound == true;
+  invariant mclrty_mint_020: mclrty_mint_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_001(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_002(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_003(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_004(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_005(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_006(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_007(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_008(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_009(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_010(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_011(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_012(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_013(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_014(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_015(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_016(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_017(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_018(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_019(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_mclrty_mint_020(payload: Bytes) {
+    require payload != @0;
+    constraint mclrty_mint_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

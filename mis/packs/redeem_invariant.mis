@@ -1,0 +1,176 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Liquid Staking Core · RedeemInvariant
+
+module LiquidStakingCoreRedeemInvariant {
+
+  embed gates 3..=6 {
+    context: "RedeemInvariant pack on MIS domain liquid_staking — CLRTY-1";
+    ai: "Index via mis_code_index + moniversive_invariant_static_ML";
+    execution: "assert_pack; assert_each; settle_clrty1";
+    capital: "Settlement clrty-1 / chain 1202 · Creator Chandler William Ferguson";
+  }
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant embed_gates_present: embed_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_redeem_invariant_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant redeem_invariant_081: redeem_invariant_081_bound == true;
+  invariant redeem_invariant_082: redeem_invariant_082_bound == true;
+  invariant redeem_invariant_083: redeem_invariant_083_bound == true;
+  invariant redeem_invariant_084: redeem_invariant_084_bound == true;
+  invariant redeem_invariant_085: redeem_invariant_085_bound == true;
+  invariant redeem_invariant_086: redeem_invariant_086_bound == true;
+  invariant redeem_invariant_087: redeem_invariant_087_bound == true;
+  invariant redeem_invariant_088: redeem_invariant_088_bound == true;
+  invariant redeem_invariant_089: redeem_invariant_089_bound == true;
+  invariant redeem_invariant_090: redeem_invariant_090_bound == true;
+  invariant redeem_invariant_091: redeem_invariant_091_bound == true;
+  invariant redeem_invariant_092: redeem_invariant_092_bound == true;
+  invariant redeem_invariant_093: redeem_invariant_093_bound == true;
+  invariant redeem_invariant_094: redeem_invariant_094_bound == true;
+  invariant redeem_invariant_095: redeem_invariant_095_bound == true;
+  invariant redeem_invariant_096: redeem_invariant_096_bound == true;
+  invariant redeem_invariant_097: redeem_invariant_097_bound == true;
+  invariant redeem_invariant_098: redeem_invariant_098_bound == true;
+  invariant redeem_invariant_099: redeem_invariant_099_bound == true;
+  invariant redeem_invariant_100: redeem_invariant_100_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_081(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_081_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_082(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_082_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_083(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_083_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_084(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_084_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_085(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_085_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_086(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_086_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_087(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_087_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_088(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_088_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_089(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_089_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_090(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_090_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_091(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_091_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_092(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_092_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_093(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_093_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_094(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_094_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_095(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_095_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_096(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_096_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_097(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_097_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_098(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_098_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_099(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_099_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_redeem_invariant_100(payload: Bytes) {
+    require payload != @0;
+    constraint redeem_invariant_100_bound == true;
+    constraint chain_id == 1202;
+  }
+
+}

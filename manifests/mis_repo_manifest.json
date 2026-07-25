@@ -1,0 +1,241 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "liquid-staking-core",
+  "title": "Liquid Staking Core",
+  "domain": "liquid_staking",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "embed_gates": "3..=6",
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/LiquidStakingCoreKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "MClrtyMint",
+      "slug": "mclrty_mint",
+      "band": "1..=20",
+      "module": "mis/packs/mclrty_mint.mis",
+      "ids": [
+        "mclrty_mint_001",
+        "mclrty_mint_002",
+        "mclrty_mint_003",
+        "mclrty_mint_004",
+        "mclrty_mint_005",
+        "mclrty_mint_006",
+        "mclrty_mint_007",
+        "mclrty_mint_008",
+        "mclrty_mint_009",
+        "mclrty_mint_010",
+        "mclrty_mint_011",
+        "mclrty_mint_012",
+        "mclrty_mint_013",
+        "mclrty_mint_014",
+        "mclrty_mint_015",
+        "mclrty_mint_016",
+        "mclrty_mint_017",
+        "mclrty_mint_018",
+        "mclrty_mint_019",
+        "mclrty_mint_020"
+      ]
+    },
+    {
+      "name": "YieldToken",
+      "slug": "yield_token",
+      "band": "21..=40",
+      "module": "mis/packs/yield_token.mis",
+      "ids": [
+        "yield_token_021",
+        "yield_token_022",
+        "yield_token_023",
+        "yield_token_024",
+        "yield_token_025",
+        "yield_token_026",
+        "yield_token_027",
+        "yield_token_028",
+        "yield_token_029",
+        "yield_token_030",
+        "yield_token_031",
+        "yield_token_032",
+        "yield_token_033",
+        "yield_token_034",
+        "yield_token_035",
+        "yield_token_036",
+        "yield_token_037",
+        "yield_token_038",
+        "yield_token_039",
+        "yield_token_040"
+      ]
+    },
+    {
+      "name": "NonCustodial",
+      "slug": "non_custodial",
+      "band": "41..=60",
+      "module": "mis/packs/non_custodial.mis",
+      "ids": [
+        "non_custodial_041",
+        "non_custodial_042",
+        "non_custodial_043",
+        "non_custodial_044",
+        "non_custodial_045",
+        "non_custodial_046",
+        "non_custodial_047",
+        "non_custodial_048",
+        "non_custodial_049",
+        "non_custodial_050",
+        "non_custodial_051",
+        "non_custodial_052",
+        "non_custodial_053",
+        "non_custodial_054",
+        "non_custodial_055",
+        "non_custodial_056",
+        "non_custodial_057",
+        "non_custodial_058",
+        "non_custodial_059",
+        "non_custodial_060"
+      ]
+    },
+    {
+      "name": "RewardAccrue",
+      "slug": "reward_accrue",
+      "band": "61..=80",
+      "module": "mis/packs/reward_accrue.mis",
+      "ids": [
+        "reward_accrue_061",
+        "reward_accrue_062",
+        "reward_accrue_063",
+        "reward_accrue_064",
+        "reward_accrue_065",
+        "reward_accrue_066",
+        "reward_accrue_067",
+        "reward_accrue_068",
+        "reward_accrue_069",
+        "reward_accrue_070",
+        "reward_accrue_071",
+        "reward_accrue_072",
+        "reward_accrue_073",
+        "reward_accrue_074",
+        "reward_accrue_075",
+        "reward_accrue_076",
+        "reward_accrue_077",
+        "reward_accrue_078",
+        "reward_accrue_079",
+        "reward_accrue_080"
+      ]
+    },
+    {
+      "name": "RedeemInvariant",
+      "slug": "redeem_invariant",
+      "band": "81..=100",
+      "module": "mis/packs/redeem_invariant.mis",
+      "ids": [
+        "redeem_invariant_081",
+        "redeem_invariant_082",
+        "redeem_invariant_083",
+        "redeem_invariant_084",
+        "redeem_invariant_085",
+        "redeem_invariant_086",
+        "redeem_invariant_087",
+        "redeem_invariant_088",
+        "redeem_invariant_089",
+        "redeem_invariant_090",
+        "redeem_invariant_091",
+        "redeem_invariant_092",
+        "redeem_invariant_093",
+        "redeem_invariant_094",
+        "redeem_invariant_095",
+        "redeem_invariant_096",
+        "redeem_invariant_097",
+        "redeem_invariant_098",
+        "redeem_invariant_099",
+        "redeem_invariant_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}
